@@ -1,0 +1,8 @@
+{
+  "name": "merelyn-castillo-bot",
+  "version": "1.0.0",
+  "description": "BOT WhatsApp Merelyn Castillo Postres y Mas",
+  "main": "merelyn_bot_index.js",
+  "scripts": {"start": "node merelyn_bot_index.js"},
+  "dependencies": {"express": "^4.18.2", "axios": "^1.6.2"}
+}
