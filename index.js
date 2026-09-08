@@ -15,9 +15,9 @@ app.use(express.json());
 // =================================================================
 // CONFIGURACION - CAMBIE AQUI SUS 3 CLAVES
 // =================================================================
-const VERIFY_TOKEN = "merelyn_token_2026"; // Inventada por usted, debe coincidir con la de Facebook
-const ACCESS_TOKEN = process.env.ACCESS_TOKEN || "EAAZAsp8n11b8BSY63j79cfb4SNwcGLJV5GR48PBvD4BiOuE4M2OStNStRnXFsirjXDI70TXm4XHwrryi3KXStI9ZB4aZBEMI1wO1GEgODYi9ZB5d2VRC7yZBTXgIZAZCMD3GTW8TstZCCZCBY8QcCUOI5R9J8tmCeVJcEOn2qV7hrwneq6MuqZBPddUF0cxRuAF5eV7wZDZD";
-const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID || "1286648534534761"; // El ID de su linea 555
+const VERIFY_TOKEN = process.env.VERIFY_TOKEN || "merelyn_token_2026";
+const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
+const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
 
 const PORT = process.env.PORT || 3000;
 
